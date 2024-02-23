@@ -255,3 +255,26 @@
 ### Results
 
 <img height="200" src="images/5-chatgpt/190d4ec6-da41-4a55-9674-be6d181b7d86"><img height="200" src="images/5-chatgpt/36e6a443-3d41-42ff-95dc-90519075d08d"><img height="200" src="images/5-chatgpt/6c84f81a-c2ab-4e54-982a-0859a05630c7"><img height="200" src="images/5-chatgpt/f766100e-19b0-4257-930b-8be81fc0d172">
+
+# ChatGPT token counts & pricing info
+
+| Group | Input | Output |
+|-------|------:|-------:|
+| 1.    | 115.0 |   42.0 |
+| 2.    | 110.0 |   72.0 |
+| 3.    | 114.0 |   57.0 |
+| 4.    | 113.0 |   44.0 |
+| 5.    | 114.0 |   49.0 |
+| AVG   | 113.2 |   52.8 |
+
+| Model                  |               Input |              Output |         AVG $ / 100 prompts |
+|------------------------|--------------------:|--------------------:|----------------------------:|
+| gpt-4                  |   $0.03 / 1K tokens |   $0.06 / 1K tokens | 0.33960 + 0.31680 = 0.65640 |
+| gpt-4-32k              |   $0.06 / 1K tokens |   $0.12 / 1K tokens | 0.67920 + 0.63360 = 1.31280 |
+| **gpt-3.5-turbo-0125** | $0.0005 / 1K tokens | $0.0015 / 1K tokens | 0.00566 + 0.00792 = 0.01358 |
+| gpt-3.5-turbo-instruct | $0.0015 / 1K tokens | $0.0020 / 1K tokens | 0.01698 + 0.01056 = 0.02754 |
+
+Links:
+
+- [Tokenizer](https://platform.openai.com/tokenizer)
+- [Pricing page](https://openai.com/pricing)
